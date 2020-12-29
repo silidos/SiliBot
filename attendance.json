@@ -1,0 +1,11 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "test",
+            "points": 0,
+            "cooldownDate": "2020-12-27",
+            "nick": "tst"
+        }
+    ]
+}

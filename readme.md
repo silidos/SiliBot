@@ -1,0 +1,6 @@
+This is a discord bot that functions with a JSON file as a database and focuses on an attendance command where users can gather points daily and spend the points in various ways. Currently, this implementation is more of an MVP, and you can add more features for users to spend their points if you choose to do so. The application adds a user into the database, which is the 'attendance.json' file, when they use the $attendance command. This stores their id, username, nickname, amount of points they have, and the date they last used the attendance command for points. This database implementation is extremely useful, as it is a local storage of the discord users on a server and it can be used in several different ways to pull the correct user.
+
+To setup the bot:
+1. Follow the steps on how to setup a Discord bot as seen here: https://discordpy.readthedocs.io/en/latest/discord.html
+2. Replace the token in config.py with your Discord bot's token
+3. In main.py, replace your guild id (server id) where it says 'enter guild id' 
